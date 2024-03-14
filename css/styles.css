@@ -280,20 +280,58 @@ address {
     display: none;
   }
 }
-.page-title {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/peopleoffice.jpg');
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  margin: 0 auto;
+@media (max-width: 767px) {
+  .page-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/peopleoffice.jpg');
+    min-width: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2e2f42;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/peopleoffice.jpg');
+    min-width: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2e2f42;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1158px) {
+  .page-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/peopleoffice.jpg');
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
+  }
 }
 
 .page-title .container {
@@ -303,16 +341,32 @@ address {
   gap: 48px;
 }
 
-.header-primary {
-  max-width: 496px;
-  height: 120px;
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  color: #fff;
-  text-align: center;
-  letter-spacing: 0.02em;
+@media (max-width: 767px) {
+  .header-primary {
+    max-width: 216px;
+    height: 160px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.12;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
 }
+
+@media (min-width: 768px) {
+  .header-primary {
+    max-width: 496px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+}
+
 .button {
   display: block;
   min-width: 169px;
