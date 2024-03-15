@@ -366,6 +366,11 @@ address {
     margin: 0 auto;
   }
 }
+@media (min-resolution: 192dpi) {
+  .page-title {
+    background-image: url('../images/peopleoffice@2x.jpg');
+  }
+}
 
 .page-title .container {
   display: flex;
