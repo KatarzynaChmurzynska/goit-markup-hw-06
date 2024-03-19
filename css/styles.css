@@ -323,6 +323,7 @@ address {
     max-width: 1158px;
     padding-top: 112px;
     padding-bottom: 112px;
+    margin: 0 auto;
   }
 }
 
@@ -349,6 +350,7 @@ address {
     max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
+    margin: 0 auto;
   }
 }
 
@@ -481,6 +483,7 @@ address {
 @media screen and (min-width: 1158px) {
   .solutions-list {
     max-width: 1158px;
+    margin: 0 auto;
   }
 }
 
