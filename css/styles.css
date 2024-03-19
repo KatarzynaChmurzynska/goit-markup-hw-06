@@ -281,26 +281,28 @@ address {
   }
 }
 
-.page-title {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../images/mobilepeopleoffice.jpg');
-  min-width: 320px;
-  max-width: 1158px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: #2e2f42;
-  padding-top: 72px;
-  padding-bottom: 72px;
-  margin: 0 auto;
+@media screen and (max-width: 767px) {
+  .page-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/mobilepeopleoffice.jpg');
+    min-width: 320px;
+    max-width: 1158px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2e2f42;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    margin: 0 auto;
+  }
 }
 
-@media screen and (min-device-pivel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+@media (max-width: 767px) and (min-device-pivel-ratio: 2),
+  (max-width: 767px) and (min-resolution: 192dpi),
+  (max-width: 767px) and (min-resolution: 2dppx) {
   .page-title {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -325,8 +327,8 @@ address {
 }
 
 @media (min-width: 768px) and (min-device-pivel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+  (min-width: 768px) and (min-resolution: 192dpi),
+  (min-width: 768px) and (min-resolution: 2dppx) {
   .page-title {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -351,8 +353,8 @@ address {
 }
 
 @media (min-width: 1158px) and (min-device-pivel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+  (min-width: 1158px) and (min-resolution: 192dpi),
+  (min-width: 1158px) and (min-resolution: 2dppx) {
   .page-title {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
