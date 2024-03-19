@@ -178,7 +178,7 @@ address {
 }
 @media screen and (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    max-width: 1158px;
     padding: 0 15px;
   }
 }
@@ -195,31 +195,12 @@ address {
   justify-content: space-between;
   min-height: 56px;
 }
-@media screen and (min-width: 768px) {
-  .header .container {
-    gap: 121px;
-  }
-}
-@media screen and (min-width: 1158px) {
-  .header .container {
-    gap: 332px;
-  }
-}
+
 .page-navigation {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
-@media screen and (min-width: 768px) {
-  .page-navigation {
-    gap: 120px;
-  }
-}
-@media screen and (min-width: 1158px) {
-  .page-navigation {
-    gap: 76px;
-  }
-}
+
 @media screen and (max-width: 767px) {
   .page-navigation .menu {
     display: none;
@@ -230,11 +211,15 @@ address {
   .page-navigation .menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 121px 24px 120px;
   }
 }
-
+@media screen and (min-width: 1158px) {
+  .page-navigation .menu {
+    padding-left: 76px;
+    padding-right: 332px;
+  }
+}
 .menu .link {
   padding: 24px 0;
 }
@@ -288,8 +273,7 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/mobilepeopleoffice.jpg');
-    min-width: 320px;
-    max-width: 1158px;
+    max-width: 320px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -309,8 +293,7 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/mobilepeopleoffice@2x.jpg');
-    min-width: 320px;
-    max-width: 1158px;
+    max-width: 320px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -328,12 +311,7 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/tabletpeopleoffice.jpg');
-    min-width: 768px;
-    max-width: 1158px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #2e2f42;
+    max-width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
     margin: 0 auto;
@@ -349,12 +327,7 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/tabletpeopleoffice@2x.jpg');
-    min-width: 768px;
-    max-width: 1158px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #2e2f42;
+    max-width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
     margin: 0 auto;
@@ -368,12 +341,7 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/desktoppeopleoffice.jpg');
-    min-width: 1158px;
     max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
@@ -389,12 +357,7 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/desktoppeopleoffice@2x.jpg');
-    min-width: 1158px;
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #2e2f42;
+    max-width: 1158px;
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
@@ -538,7 +501,6 @@ address {
 @media screen and (min-width: 768px) {
   .solutions-list-items {
     flex-basis: 356px;
-    margin-bottom: 48px;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -708,8 +670,6 @@ img {
 .project-card {
   max-width: 288px;
   height: 400px;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   background: #fff;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
