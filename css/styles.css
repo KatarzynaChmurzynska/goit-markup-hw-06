@@ -178,7 +178,7 @@ address {
 }
 @media (min-width: 1158px) {
   .container {
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 0 15px;
   }
 }
@@ -432,9 +432,7 @@ address {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 768px;
-    gap: 24px;
-    justify-content: center;
+    gap: 72px 24px;
   }
 }
 @media (min-width: 1158px) {
@@ -456,13 +454,9 @@ address {
   overflow: hidden;
 }
 
-.solutions-list-items {
-  max-width: 288px;
-}
-
 @media (min-width: 768px) {
   .solutions-list-items {
-    flex-basis: calc((100% - 24px) / 2);
+    flex-basis: 356px;
     margin-bottom: 48px;
   }
 }
@@ -792,15 +786,16 @@ img {
     justify-content: flex-start;
     column-gap: 24px;
     row-gap: 72px;
-    width: 768px;
-    margin: 0 auto;
+    align-items: baseline;
+    max-width: 530px;
   }
 }
 
 @media (min-width: 1158px) {
   .page-footer .container {
     flex-wrap: nowrap;
-    margin: 0 auto;
+    max-width: 1150px;
+    padding: 0;
   }
 }
 
