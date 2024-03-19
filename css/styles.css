@@ -286,7 +286,7 @@ address {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/peopleoffice.jpg');
+    url('../images/mobilepeopleoffice.jpg');
   min-width: 320px;
   max-width: 1158px;
   background-repeat: no-repeat;
@@ -300,6 +300,11 @@ address {
 
 @media (min-width: 768px) {
   .page-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/tabletpeopleoffice.jpg');
     min-width: 768px;
     max-width: 1158px;
     padding-top: 112px;
@@ -309,6 +314,11 @@ address {
 
 @media (min-width: 1158px) {
   .page-title {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/desktoppeopleoffice.jpg');
     min-width: 1158px;
     max-width: 1440px;
     padding-top: 188px;
