@@ -293,14 +293,6 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/mobilepeopleoffice@2x.jpg');
-    max-width: 320px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #2e2f42;
-    padding-top: 72px;
-    padding-bottom: 72px;
-    margin: 0 auto;
   }
 }
 
@@ -315,6 +307,10 @@ address {
     padding-top: 112px;
     padding-bottom: 112px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2e2f42;
   }
 }
 
@@ -327,10 +323,6 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/tabletpeopleoffice@2x.jpg');
-    max-width: 768px;
-    padding-top: 112px;
-    padding-bottom: 112px;
-    margin: 0 auto;
   }
 }
 
@@ -345,6 +337,10 @@ address {
     padding-top: 188px;
     padding-bottom: 188px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2e2f42;
   }
 }
 
@@ -357,10 +353,6 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url('../images/desktoppeopleoffice@2x.jpg');
-    max-width: 1158px;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    margin: 0 auto;
   }
 }
 
